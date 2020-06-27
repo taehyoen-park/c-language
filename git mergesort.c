@@ -46,7 +46,6 @@ void merge(int arr[], int a, int mid, int b)
 	{
 		arr[t] = list[t];
 	}
-	
 }
 
 void sort(int arr[], int a, int b)
@@ -58,7 +57,6 @@ void sort(int arr[], int a, int b)
 		sort(arr,mid+1,b);
 		merge(arr,a,mid,b);	
 	}
-	
 }
 
 int main()
@@ -72,6 +70,5 @@ int main()
 	{
 		printf("%d ",arr[i]);
 	}
-	
 	return 0;
 }
