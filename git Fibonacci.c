@@ -38,7 +38,7 @@ int main(void)
 {
 	const int startnum = 0, startnum2 = 1;
 	
-	printf("숫자를 입력하시오:");
+	printf("enter number:");
 	scanf("%d",&n);
 	
 	printf("%d",Fibonacci(startnum, startnum2));
