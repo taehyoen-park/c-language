@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// 주석을 추가 합니다
 void print();
 void print2();
 
